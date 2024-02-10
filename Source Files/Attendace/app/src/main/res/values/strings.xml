@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Attendace</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="description">Meet Our Team At ATTENDANCE, were a dedicated team of professionals who are passionate about creating innovative solutions for our users. Get to know the people behind the app: Aryaman Sawant - FrontEnd developer Atharv Sutar - BackEnd developer Sourabh Salvi - Technical writer Aniruddha Pednekar - DataBase Administrator We bring a diverse range of skills and experiences to the table, all united by our common goal of providing you with the best possible app experience. Were here to listen to your feedback, answer your questions, and continually improve ATTENDANCE to meet your needs. Thank you for choosing ATTENDANCE  were excited to have you on this journey with us! Mission : "At ATTENDANCE, we are committed to revolutionizing attendance management through cutting-edge technology. Our mission is to empower organizations with a seamless, efficient, and secure system that leverages QR codes to simplify attendance tracking, ensuring accuracy and convenience for all stakeholders</string>
+    <string name="aryaman_sawant__frontend_developer_string">Aryaman Sawant-Frontend Developer</string>
+    <string name="atharva_sutar__backend_developer_string">Atharv Sutar-Backend Developer</string>
+    <string name="aniruddha_pednekar__database_administrator_string">Aniruddha Pednekar-DataBase Administrator</string>
+    <string name="sourabh_salvi__solution_team_string">Sourabh Salvi-Solution Team</string>
+</resources>

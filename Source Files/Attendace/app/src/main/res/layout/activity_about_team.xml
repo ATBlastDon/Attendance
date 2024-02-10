@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    tools:context=".AboutTeam">
+
+    <TextView
+        android:id="@+id/abouttitle"
+        android:layout_width="205dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/alata"
+        android:text="A b o u t"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <TextView
+        android:id="@+id/teamtitle"
+        android:layout_width="205dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/alata"
+        android:text="T e a m"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F4EBEB"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abouttitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollforabout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamtitle"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="163dp"
+                android:layout_height="199dp"
+                android:background="@drawable/rectangle_1_shape"
+                android:backgroundTint="#37FEFE"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/rectangle_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.058" />
+
+            <ImageView
+                android:id="@+id/ellipse_1"
+                android:layout_width="99dp"
+                android:layout_height="97dp"
+                android:contentDescription="ellipse_1"
+                android:src="@drawable/ellipse_1"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
+                app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
+                app:layout_constraintHorizontal_bias="0.515"
+                app:layout_constraintStart_toStartOf="@+id/rectangle_1"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_1"
+                app:layout_constraintVertical_bias="0.225" />
+
+            <TextView
+                android:id="@+id/aryaman_sawant__frontend_developer"
+                android:layout_width="144.2dp"
+                android:layout_height="49.2dp"
+                android:text="@string/aryaman_sawant__frontend_developer_string"
+                android:textAlignment="center"
+                android:textColor="@color/_bg__android_large___1_ek2_color"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_1"
+                app:layout_constraintEnd_toEndOf="@+id/rectangle_1"
+                app:layout_constraintStart_toStartOf="@+id/rectangle_1"
+                app:layout_constraintTop_toBottomOf="@+id/ellipse_1" />
+
+            <View
+                android:id="@+id/rectangle_2"
+                android:layout_width="163dp"
+                android:layout_height="199dp"
+                android:background="@drawable/rectangle_1_shape"
+                android:backgroundTint="#37FEFE"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rectangle_1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.057" />
+
+
+            <TextView
+                android:id="@+id/atharva_sutar__backend_developer"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/atharva_sutar__backend_developer_string"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/_bg__android_large___1_ek2_color"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
+                app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintStart_toStartOf="@+id/rectangle_2"
+                app:layout_constraintTop_toBottomOf="@+id/ellipse_2"
+                app:layout_constraintVertical_bias="0.6" />
+
+            <ImageView
+                android:id="@+id/ellipse_2"
+                android:layout_width="99dp"
+                android:layout_height="97dp"
+                android:contentDescription="ellipse_2"
+                android:src="@drawable/ellipse_2"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
+                app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
+                app:layout_constraintStart_toStartOf="@+id/rectangle_2"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_2"
+                app:layout_constraintVertical_bias="0.225" />
+
+            <View
+                android:id="@+id/rectangle_3"
+                android:layout_width="163dp"
+                android:layout_height="199dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/rectangle_1_shape"
+                android:backgroundTint="#37FEFE"
+                app:layout_constraintEnd_toStartOf="@+id/rectangle_4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rectangle_1" />
+
+            <TextView
+                android:id="@+id/aniruddha_pednekar__database_administrator"
+                android:layout_width="158.2dp"
+                android:layout_height="49.2dp"
+                android:text="@string/aniruddha_pednekar__database_administrator_string"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+                app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/rectangle_3"
+                app:layout_constraintTop_toBottomOf="@+id/ellipse_1_ek1" />
+
+            <ImageView
+                android:id="@+id/ellipse_1_ek1"
+                android:layout_width="99dp"
+                android:layout_height="97dp"
+                android:contentDescription="ellipse_1_ek1"
+                android:src="@drawable/ellipse_1_ek1"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+                app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
+                app:layout_constraintHorizontal_bias="0.515"
+                app:layout_constraintStart_toStartOf="@+id/rectangle_3"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_3"
+                app:layout_constraintVertical_bias="0.166" />
+
+            <View
+                android:id="@+id/rectangle_4"
+                android:layout_width="163dp"
+                android:layout_height="199dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/rectangle_1_shape"
+                android:backgroundTint="#37FEFE"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rectangle_3"
+                app:layout_constraintTop_toBottomOf="@+id/rectangle_2"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/ellipse_1_ek2"
+                android:layout_width="99dp"
+                android:layout_height="97dp"
+                android:contentDescription="ellipse_1_ek2"
+                android:src="@drawable/ellipse_1_ek2"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_4"
+                app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+                app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_4"
+                app:layout_constraintVertical_bias="0.127" />
+
+            <TextView
+                android:id="@+id/sourabh_salvi__solution_team"
+                android:layout_width="143dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/sourabh_salvi__solution_team_string"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/_bg__android_large___1_ek2_color"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_4"
+                app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+                app:layout_constraintHorizontal_bias="0.45"
+                app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+                app:layout_constraintTop_toBottomOf="@+id/ellipse_1_ek2"
+                app:layout_constraintVertical_bias="0.29" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="395dp"
+                android:layout_height="754dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="8sp"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.483"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rectangle_3"
+                app:layout_constraintVertical_bias="0.058"
+                android:text="Welcome to Attendance.\n\n We are a dynamic team dedicated to enhancing your experience with our innovative QR code-based attendance management solution. Meet the brilliant minds behind our app\nWe combine a diverse range of skills and a shared commitment to providing you with the best possible app experience. We value your feedback and are here to address your questions as we continuously improve Attendance to meet your needs.\n\nThank you for choosing Attendance; we're thrilled to have you on this journey with us." />
+            
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adminlogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    tools:context=".TeacherView">
+
+    <Button
+        android:id="@+id/adminFP"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/alata"
+        android:lineSpacingExtra="8sp"
+        android:onClick="adminFp"
+        android:text="Forgot Password?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="213dp"
+        android:layout_height="65dp"
+        android:fontFamily="@font/alata"
+        android:text="A d m i n  "
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/alata"
+        android:text="L o g i n "
+        android:textAlignment="viewStart"
+        android:textColor="#FDFDFD"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/TeacherEmail"
+        android:layout_width="335dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Enter Your Emaill"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginPage"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <EditText
+        android:id="@+id/TeacherPassword"
+        android:layout_width="335dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TeacherEmail"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/LoginAdmin"
+        android:layout_width="129dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/alata"
+        android:onClick="adminlogin"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TeacherPassword"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/regAdmin"
+        android:layout_width="129dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/alata"
+        android:onClick="reglogin"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TeacherPassword"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/iconImageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/admin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417" />
+
+    <Button
+        android:id="@+id/studentgo"
+        android:layout_width="46dp"
+        android:layout_height="45dp"
+        android:background="@android:color/transparent"
+        android:onClick="Gostudent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412" />
+
+    <TextView
+        android:id="@+id/LoginPage"
+        android:layout_width="172dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/alata"
+        android:lineSpacingExtra="14sp"
+        android:text="S i g n   I n"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#6750A3"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.198" />
+
+    <CheckBox
+        android:id="@+id/showPasswordCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/LoginAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TeacherPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
