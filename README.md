@@ -38,7 +38,7 @@ This is an Android application developed in Java using Android Studio for managi
 6. Create a new Pull Request.
 
 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ## ❤️ Support
 If you find my work helpful or interesting, consider buying me a coffee! You can support me through the following platforms:
